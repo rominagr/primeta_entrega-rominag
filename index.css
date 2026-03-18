@@ -2,43 +2,87 @@
 
 
 
-
-.boton{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: 100%;
-    z-index: 3; 
+/*bannerdearriba*/
+.banner {
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
 }
 
-
-
+.banner:hover {
+  box-shadow: 0 4px 8px rgb(51, 3, 182); /* Shadow effect on hover */
+}
 
 .banner{
     background-image: url(imagen.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     z-index: 0;
 }
+
+.banner2 {
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.banner2:hover {
+  box-shadow:  0 4px 8px rgb(51, 3, 182); /* Shadow effect on hover */
+}
+.banner2{
+    background-image: url(IMAGEN2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    z-index: 0;
+}
+
+.banner3 {
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+}
+
+.banner3:hover {
+  box-shadow:  0 4px 8px rgb(51, 3, 182); /* Shadow effect on hover */
+}
+.banner3{
+    background-image: url(Imagen3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    z-index: 0;
+}
+
+/*bannerdearriba*/
+
+
+/*partes oscuras de la pagina*/
 .bg-dark{
 	background-color: #000000
 	!important;
 }
 
-.tituloboton{
+/*tipografias*/
+.titulos{
         font-family: "Montserrat Alternates", sans-serif;
-        font-weight: 400;
+        font-weight: 800;
+        color:rgb(0, 0, 0);
         font-style: normal;
-        z-index: 1;
-        !important
+        font-size: 35px;
+}
+
+.tituloboton2{
+        color: #ffffff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
 }
 
 .text{
     color: var(--Titulares, #000000);
-    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 25px
