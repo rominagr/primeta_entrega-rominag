@@ -28,21 +28,23 @@
                  <img class="logo" src="logo@2x.png">
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ilustración</a></li>
-                   <li><hr class="dropdown-divider"></li>
+                   <li><a class="dropdown-item" href="index.html">Inicio</a></li>
+                   <li> <hr class="dropdown-divider"> </li>
+                  <li><a class="dropdown-item" href="contenido.html">Ilustración</a></li>
+                   <li> <hr class="dropdown-divider"> </li>
                   <li><a class="dropdown-item" href="#">Diseño</a></li>
                     <li><hr class="dropdown-divider"></li>
 
                   <li><a class="dropdown-item" href="#">Store</a></li>
                     <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
                 </ul>
               </li>
     
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -69,11 +71,11 @@
     
         </div>
 
-    <div class="col-6 pt-4 justify-content-end">
+    <div class="col-md-6 pt-4 justify-content-center">
    
         <form>
         <fieldset>
-          <legend class="tituloboton"> CONSULTAS</legend>
+          <legend class="titulos"> CONSULTAS</legend>
           <div class="mb-3">
             <label for="TextInput" class="form-label">Nombre</label>
             <input type="text" id="TextInput" class="form-control" placeholder="Nombre">
@@ -88,12 +90,12 @@
 
         <div class="mb-3">
                 <label for="TextInput" class="form-label">Email</label>
-                <input type="text" id="TextInput" class="form-control" placeholder="Apellido">
+                <input type="text" id="TextInput" class="form-control" placeholder="Email">
               </div>
 
         <div class="mb-3">
                 <label for="TextInput" class="form-label">Telefono</label>
-                <input type="text" id="TextInput" class="form-control" placeholder="Apellido">
+                <input type="text" id="TextInput" class="form-control" placeholder="Telefono">
               </div>
         
    
@@ -105,6 +107,19 @@
               <option>Store</option>
             </select>
           </div>
+    <label for="Select" class="form-label">Es con urgencia?</label>
+          <div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+  <label class="form-check-label" for="radioDefault1">
+    Si
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+  <label class="form-check-label" for="radioDefault2">
+    No
+  </label>
+</div>
           <div class="mb-3">
             <label for="TextInput" class="form-label">Mensaje</label>
             <div class="input-group">
@@ -132,9 +147,10 @@
     </main>
     
     
-    <footer class="bg-dark py-3 col-12">
-        <p class="">  © 2026 - Todos los derechos reservados</p>
-    
+  <footer class="bg-dark p-3 col-md-12 ">
+      <div class="container-fluid align-items-center justify-content-center">
+        <p class="textofooter justify-content-center">  The Art Paradox 2026 - Todos los derechos reservados</p>
+    </div>
     </footer>
     <!--los scripts siempre se colocan al final de la pagina
     por que si algo falla impide que no se trabe la pagina-->

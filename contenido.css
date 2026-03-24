@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
-
-.boton{
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: 100%;
-    z-index: 3; 
-}
-
-
-
-
-.banner{
-    background-image: url(imagen.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40vh;
-    width: 100%;
-    z-index: 0;
-}
+/*partes oscuras de la pagina*/
 .bg-dark{
 	background-color: #000000
 	!important;
 }
+
+.textofooter{
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 300;
+        color:rgb(255, 255, 255);
+        font-style: normal;
+        font-size: 15px;
+}
+
+
+
+.titulos{
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 800;
+        color:rgb(0, 0, 0);
+        font-style: normal;
+        font-size: 52px
+        !important
+}
+
+
+
 
 .tituloboton{
         font-family: "Montserrat Alternates", sans-serif;
